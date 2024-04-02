@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="format-detection" content="telephone=no">
+        <link rel="stylesheet" href="css/style.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <title>ROBO SCHOOL</title>
+    </head>
+
+    <body>
+        
+        <div class="wrapper">
+            <header class="header">
+                <div class="header__head">
+                    
+                    <a href="" class="header__head-logo">ROBO.SCHOOL</a>
+                    
+                    <nav class="header__head-nav">
+                    <a href="#description" class="header__nav-text1">О школе</a>
+                    <a href="#trainer" class="header__nav-text2">Тренеры</a>
+                    <a href="#price" class="header__nav-text3">Стоимость</a>
+                    </nav>
+                    
+                    <h1 class="header__head-numer">+7 800 000 11 22</h1>
+                    <div class="header__head-number">
+                        <img id="number" onclick="togglePhone()" src="img/phones.svg" alt="Phone" class="header__number-img">
+                        <div id="phone" class="header__number-phone">
+                            <h2 class="header__phone-text">+7 800 000 11 22</h2>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="header__body">
+                    <div class="header__body-information">
+                        <div class="header__information-text">
+                            <h1 class="header__text-title">ROBO SCHOOL</h1>
+                            <h3 class="header__text-description">Курсы повышения квалификации по робототехнике для педагогов начальной школы</h3>
+                        </div>
+                        <button class="header__information-btn">Записаться на курс</button>
+                    </div>
+                    <img src="img/girl.png" alt="Girl" class="header__body-img">
+                </div>
+            </header>
+
+
+           
+            <main class="main">
+                <section id="description" class="main__description">
+                    <h3 class="main__description-text"><span class="main__text-name">Robo School</span> – учреждение для формирования кадрового педагогического резерва в сфере робототехники <br /> и программирования</h3>
+                    <div class="main__description-privilege">
+                        <div class="main__privilege-nums1">
+                            <div class="main__privilege-num1">
+                                <h2 class="main__num1-number">10</h2>
+                                <h3 class="main__num1-text1">УМК по различным направлениям по робототехнике</h3>
+                            </div>
+                            <div class="main__privilege-num2">
+                                <h2 class="main__num2-number">20</h2>
+                                <h3 class="main__num2-text2">Школ, в которых запущена робототехника</h3>
+                            </div>
+                        </div>
+                        <div class="main__privilege-nums2">
+                            <div class="main__privilege-num3">
+                                <h2 class="main__num3-number">100</h2>
+                                <h3 class="main__num3-text3">Педагогов прошедших курсы повышения квалификации</h3>
+                            </div>
+                            <div class="main__privilege-num4">
+                                <h2 class="main__num4-number">10 000</h2>
+                                <h3 class="main__num4-text4">Обученных детей на базе собственных центров</h3>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </section>
+
+
+
+                <section class="main__progress">
+                    <h1 class="main__progress-title">Что вы получите после курса</h1>
+                    <div class="main__progress-plus">
+                        <div class="main__plus-identity">
+                            <h2 class="main__identity-text1">Удостоверение</h2>
+                            <h3 class="main__identity-text2">Дающее право преподавать робототехнику для детей 6-12 лет в образовательных учреждениях</h3>
+                        </div>
+                        <div class="main__plus-know">
+                            <h2 class="main__know-text1">Знания</h2>
+                            <h3 class="main__know-text2">По основам разработки учебно-методических комплексов <br />
+                                по робототехнике и программированию</h3>
+                        </div>
+                        <div class="main__plus-practice">
+                            <div class="main__practice-box">
+                                <h2 class="main__box-text1">Практику</h2>
+                                <img id="info" onclick="toggleElement()" src="img/i.svg" alt="Info" class="main__box-info">
+                                <div id="taxt" class="main__box-taxt">
+                                    <h3 class="main__taxt-text1">При наличии свободных мест</h3>
+                                </div>
+                            </div>
+
+                            <h3 class="main__practice-text2">Возможность пройти практику по преподаванию робототехники на базе <br /> R:ED LAB (в оффлайн или онлайн формате)</h3>
+                        </div>
+                    </div>
+                </section>
+
+
+ 
+                <section id="trainer" class="main__trainer">
+                    <h1 class="main__trainer-title">Профессиональные тренеры</h1>
+                    <div class="main__trainer-teach">
+                        <div id="teach1" class="main__trainer-teachers1">
+                            <img src="img/img1.jpg" alt="Girl" class="main__teachers1-img">
+                            <h2 class="main__teachers1-text1">Ирина Лайм</h2>
+                            <h3 class="main__teachers1-text2">преподаватель по робототехнике</h3>
+                            <h2 id="podrob1" class="main__teachers1-text3">Подробнее</h2>
+                            
+                            <div id="descript1" class="main__teachers1-descript1">
+                                <div class="main__descript1-head1">
+                                    <div class="main__head1-info1">
+                                        <img src="img/img-descript2.jpg" alt="Girl" class="main__info1-img">
+                                        <div class="main__info1-descript1">
+                                            <h2 class="main__descript1-text1">Ирина Лайм</h2>
+                                            <h3 class="main__descript1-text2">преподаватель по робототехнике</h3>
+                                            <div class="main__descript1-inter1">
+                                                <img src="img/Facebook.svg" alt="Facebook" class="main__inter1-face">
+                                                <img src="img/Instagram.svg" alt="Instagram" class="main__inter1-insta">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="close1" onclick="closePopup()" class="main__head1-close">Закрыть</h3>
+                                    <img id="close1" onclick="closePopup()" src="img/close.svg" alt="Close" class="main__head1-closes">
+                                </div>
+                                <div class="main__descript1-body1">
+                                    <div class="main__body1-head1">
+                                        <h2 class="main__head1-text1">Образование</h2>
+                                        <h2 class="main__head1-text2">Опыт работы</h2>
+                                        <h2 class="main__head1-text3">Награды</h2>
+                                    </div>
+                                    <div class="main__head1-line"></div>
+                                    <div class="main__body1-bottom1">
+                                        <h3 class="main__bottom1-text1">Сентябрь 1995 — Июнь 2000 <br />
+                                            Санкт-Петербургский политехнический университет Петра Великого <br />
+                                            Факультет: Компьютерных наук и технологий <br />
+                                            Специальность: Математика и компьютерные науки <br />
+                                            Форма обучения: Очная
+                                        </h3>
+                                        <h2 class="main__bottom1-text2">Курсы и тренинги</h2>
+                                        <h3 class="main__bottom1-text3">Ноябрь 2020 — Февраль 2021 <br />
+                                            Программа дополнительного образования «3D Моделирование» <br />
+                                            Место проведения: Институт дополнительного образования «Политех»
+                                        </h3>
+                                        <h2 class="main__bottom1-text4">Награды</h2>
+                                        <h3 class="main__bottom1-text5">Лауреаты различных наград в области образования и робототехники</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="overlay"></div>
+                        <div id="teach2" class="main__trainer-teachers2">
+                            <img src="img/img2.jpg" alt="Girl" class="main__teachers2-img">
+                            <h2 class="main__teachers2-text1">Марина Орлова</h2>
+                            <h3 class="main__teachers2-text2">преподаватель по робототехнике</h3>
+                            <h2 id="podrob2" class="main__teachers2-text3">Подробнее</h2>
+                            <div id="overlay"></div>
+                            <div id="descript2" class="main__teachers2-descript2">
+                                <div class="main__descript2-head2">
+                                    <div class="main__head2-info2">
+                                        <img src="img/img-descript1.jpg" alt="Girl" class="main__info2-img">
+                                        <div class="main__info2-descript2">
+                                            <h2 class="main__descript2-text1">Марина Орлова</h2>
+                                            <h3 class="main__descript2-text2">преподаватель по робототехнике</h3>
+                                            <div class="main__descript2-inter2">
+                                                <img src="img/Facebook.svg" alt="Facebook" class="main__inter2-face">
+                                                <img src="img/Instagram.svg" alt="Instagram" class="main__inter2-insta">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="close2" onclick="closePopup2()" class="main__head2-close">Закрыть</h3>
+                                    <img id="close2" onclick="closePopup2()" src="img/close.svg" alt="Close" class="main__head2-closes">
+                                </div>
+                                <div class="main__descript2-body2">
+                                    <div class="main__body2-head2">
+                                        <h2 class="main__head2-text1">Образование</h2>
+                                        <h2 class="main__head2-text2">Опыт работы</h2>
+                                        <h2 class="main__head2-text3">Награды</h2>
+                                    </div>
+                                    <div class="main__head2-line"></div>
+                                    <div class="main__body2-bottom2">
+                                        <h3 class="main__bottom2-text1">Сентябрь 1995 — Июнь 2000 <br />
+                                            Санкт-Петербургский политехнический университет Петра Великого <br />
+                                            Факультет: Компьютерных наук и технологий <br />
+                                            Специальность: Математика и компьютерные науки <br />
+                                            Форма обучения: Очная
+                                        </h3>
+                                        <h2 class="main__bottom2-text2">Курсы и тренинги</h2>
+                                        <h3 class="main__bottom2-text3">Ноябрь 2020 — Февраль 2021 <br />
+                                            Программа дополнительного образования «3D Моделирование» <br />
+                                            Место проведения: Институт дополнительного образования «Политех»
+                                        </h3>
+                                        <h2 class="main__bottom2-text4">Награды</h2>
+                                        <h3 class="main__bottom2-text5">Лауреаты различных наград в области образования и робототехники</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__trainer-teachers3">
+                            <img src="img/img3.jpg" alt="Man" class="main__teachers3-img">
+                            <h2 class="main__teachers3-text1">Максим Петров</h2>
+                            <h3 class="main__teachers3-text2">преподаватель по программированию</h3>
+                            <h2 id="podrob3" class="main__teachers3-text3">Подробнее</h2>
+                            <div id="overlay"></div>
+                            <div id="descript3" class="main__teachers3-descript3">
+                                <div class="main__descript3-head3">
+                                    <div class="main__head3-info3">
+                                        <img src="img/img-descript3.jpg" alt="Girl" class="main__info3-img">
+                                        <div class="main__info3-descript3">
+                                            <h2 class="main__descript3-text1">Максим Петров</h2>
+                                            <h3 class="main__descript3-text2">преподаватель по программированию</h3>
+                                            <div class="main__descript3-inter3">
+                                                <img src="img/Facebook.svg" alt="Facebook" class="main__inter3-face">
+                                                <img src="img/Instagram.svg" alt="Instagram" class="main__inter3-insta">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="close3" onclick="closePopup3()" class="main__head3-close">Закрыть</h3>
+                                    <img id="close3" onclick="closePopup3()" src="img/close.svg" alt="Close" class="main__head3-closes">
+                                </div>
+                                <div class="main__descript3-body3">
+                                    <div class="main__body3-head3">
+                                        <h2 class="main__head3-text1">Образование</h2>
+                                        <h2 class="main__head3-text2">Опыт работы</h2>
+                                        <h2 class="main__head3-text3">Награды</h2>
+                                    </div>
+                                    <div class="main__head3-line"></div>
+                                    <div class="main__body3-bottom3">
+                                        <h3 class="main__bottom3-text1">Сентябрь 1995 — Июнь 2000 <br />
+                                            Санкт-Петербургский политехнический университет Петра Великого <br />
+                                            Факультет: Компьютерных наук и технологий <br />
+                                            Специальность: Математика и компьютерные науки <br />
+                                            Форма обучения: Очная
+                                        </h3>
+                                        <h2 class="main__bottom3-text2">Курсы и тренинги</h2>
+                                        <h3 class="main__bottom3-text3">Ноябрь 2020 — Февраль 2021 <br />
+                                            Программа дополнительного образования «3D Моделирование» <br />
+                                            Место проведения: Институт дополнительного образования «Политех»
+                                        </h3>
+                                        <h2 class="main__bottom3-text4">Награды</h2>
+                                        <h3 class="main__bottom3-text5">Лауреаты различных наград в области образования и робототехники</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__trainer-teachers4">
+                            <img src="img/img4.jpg" alt="Man" class="main__teachers4-img">
+                            <h2 class="main__teachers4-text1">Константин Назаров</h2>
+                            <h3 class="main__teachers4-text2">преподаватель по робототехнике</h3>
+                            <h2 id="podrob4" class="main__teachers4-text3">Подробнее</h2>
+                            <div id="overlay"></div>
+                            <div id="descript4" class="main__teachers4-descript4">
+                                <div class="main__descript4-head4">
+                                    <div class="main__head4-info4">
+                                        <img src="img/img-descript4.jpg" alt="Girl" class="main__info4-img">
+                                        <div class="main__info4-descript4">
+                                            <h2 class="main__descript4-text1">Константин Назаров</h2>
+                                            <h3 class="main__descript4-text2">преподаватель по робототехнике</h3>
+                                            <div class="main__descript4-inter4">
+                                                <img src="img/Facebook.svg" alt="Facebook" class="main__inter4-face">
+                                                <img src="img/Instagram.svg" alt="Instagram" class="main__inter4-insta">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="close4" onclick="closePopup4()" class="main__head4-close">Закрыть</h3>
+                                    <img id="close4" onclick="closePopup4()" src="img/close.svg" alt="Close" class="main__head4-closes">
+                                </div>
+                                <div class="main__descript4-body4">
+                                    <div class="main__body4-head4">
+                                        <h2 class="main__head4-text1">Образование</h2>
+                                        <h2 class="main__head4-text2">Опыт работы</h2>
+                                        <h2 class="main__head4-text3">Награды</h2>
+                                    </div>
+                                    <div class="main__head4-line"></div>
+                                    <div class="main__body4-bottom4">
+                                        <h3 class="main__bottom4-text1">Сентябрь 1995 — Июнь 2000 <br />
+                                            Санкт-Петербургский политехнический университет Петра Великого <br />
+                                            Факультет: Компьютерных наук и технологий <br />
+                                            Специальность: Математика и компьютерные науки <br />
+                                            Форма обучения: Очная
+                                        </h3>
+                                        <h2 class="main__bottom4-text2">Курсы и тренинги</h2>
+                                        <h3 class="main__bottom4-text3">Ноябрь 2020 — Февраль 2021 <br />
+                                            Программа дополнительного образования «3D Моделирование» <br />
+                                            Место проведения: Институт дополнительного образования «Политех»
+                                        </h3>
+                                        <h2 class="main__bottom4-text4">Награды</h2>
+                                        <h3 class="main__bottom4-text5">Лауреаты различных наград в области образования и робототехники</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__trainer-teachers5">
+                            <img src="img/img5.jpg" alt="Girl" class="main__teachers5-img">
+                            <h2 class="main__teachers5-text1">Лиза Весенняя</h2>
+                            <h3 class="main__teachers5-text2">преподаватель по программированию</h3>
+                            <h2 id="podrob5" class="main__teachers5-text3">Подробнее</h2>
+                            <div id="overlay"></div>
+                            <div id="descript5" class="main__teachers5-descript5">
+                                <div class="main__descript5-head5">
+                                    <div class="main__head5-info5">
+                                        <img src="img/img-descript5.jpg" alt="Girl" class="main__info5-img">
+                                        <div class="main__info5-descript5">
+                                            <h2 class="main__descript5-text1">Лиза Весенняя</h2>
+                                            <h3 class="main__descript5-text2">преподаватель по программированию</h3>
+                                            <div class="main__descript5-inter5">
+                                                <img src="img/Facebook.svg" alt="Facebook" class="main__inter5-face">
+                                                <img src="img/Instagram.svg" alt="Instagram" class="main__inter5-insta">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="close5" onclick="closePopup5()" class="main__head5-close">Закрыть</h3>
+                                    <img id="close5" onclick="closePopup5()" src="img/close.svg" alt="Close" class="main__head5-closes">
+                                </div>
+                                <div class="main__descript5-body5">
+                                    <div class="main__body5-head5">
+                                        <h2 class="main__head5-text1">Образование</h2>
+                                        <h2 class="main__head5-text2">Опыт работы</h2>
+                                        <h2 class="main__head5-text3">Награды</h2>
+                                    </div>
+                                    <div class="main__head5-line"></div>
+                                    <div class="main__body5-bottom5">
+                                        <h3 class="main__bottom5-text1">Сентябрь 1995 — Июнь 2000 <br />
+                                            Санкт-Петербургский политехнический университет Петра Великого <br />
+                                            Факультет: Компьютерных наук и технологий <br />
+                                            Специальность: Математика и компьютерные науки <br />
+                                            Форма обучения: Очная
+                                        </h3>
+                                        <h2 class="main__bottom5-text2">Курсы и тренинги</h2>
+                                        <h3 class="main__bottom5-text3">Ноябрь 2020 — Февраль 2021 <br />
+                                            Программа дополнительного образования «3D Моделирование» <br />
+                                            Место проведения: Институт дополнительного образования «Политех»
+                                        </h3>
+                                        <h2 class="main__bottom5-text4">Награды</h2>
+                                        <h3 class="main__bottom5-text5">Лауреаты различных наград в области образования и робототехники</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="main__trainer-skip">
+                        <div class="main__skip-arrow">
+                            <img id="arrow_left" onclick="ArrowLeft()" src="img/arrow-left.svg" alt="Arrow_left" class="main__arrow-left">
+                            <img id="arrow_right" onclick="ArrowRight()" src="img/arrow-right.svg" alt="Arrow_right" class="main__arrow-right">
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+                <section id="price" class="main__price">
+                    <h1 class="main__price-title">Выберите нужный пакет</h1>
+                    <div class="main__price-package">
+                        <div class="main__package-pack1">
+                            <h2 class="main__pack1-text1">– PRO –</h2>
+                            <h2 class="main__pack1-text2">20.000 </h2>
+                            <h3 class="main__pack1-text3">УМК по робототетхнике и программированию</h3>
+                            <button class="main__pack1-btn">Оставить заявку</button>
+                        </div>
+                        <div class="main__package-pack2">
+                            <h2 class="main__pack2-text1">– ROBO –</h2>
+                            <h2 class="main__pack2-text2">15.000</h2>
+                            <h3 class="main__pack2-text3">УМК по робототетхнике </h3>
+                            <button class="main__pack2-btn">Оставить заявку</button>
+                        </div>
+                        <div class="main__package-pack3">
+                            <h2 class="main__pack3-text1">– PROG –</h2>
+                            <h2 class="main__pack3-text2">10.000</h2>
+                            <h3 class="main__pack3-text3">УМК по программированию</h3>
+                            <button class="main__pack3-btn">Оставить заявку</button>
+                        </div>
+                    </div>
+                </section>
+
+
+
+                <section class="main__record">
+                    <div class="main__record-discount">
+                        <h1 class="main__discount-text1">Запишитесь на курс <br /> со скидкой 10%</h1>
+                        <h2 class="main__discount-text2">Акция действительна до 10 марта 2022 года</h2>
+                    </div>
+                    <form class="main__record-form">
+                        <input type="text" placeholder="Имя" class="main__form-name"> <br />
+                        <input type="number" placeholder="Телефон" class="main__form-number"> <br />
+                        <input type="email" placeholder="E-mail" class="main__form-email"> <br />
+                        <button class="main__record-form-btn">Оформить заявку</button>
+                    </form>
+                </section>
+            </main>
+
+
+
+            <footer class="footer">
+                <div class="footer__left">
+                    <a href="" class="footer__left-logo">ROBO.SCHOOL</a>
+                    <h3 class="footer__left-info">© ROBO.SCHOOL</h3>
+                </div>
+               
+                <h1 class="footer__right-number">+7 800 000 11 22</h1>
+                
+            </footer>
+        </div>
+
+    </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="js/main.js"></script>
+</html>
